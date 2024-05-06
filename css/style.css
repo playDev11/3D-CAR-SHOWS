@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #909090;
+}
+
+header {
+  margin-top: 3em;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#container3D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 20%;
+  left: 4%;
+}
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ background-color: #fff;
+ margin-top: 3rem;
+ margin-left: 15rem;
+ margin-right: 15rem;
+ margin-bottom: 4rem;
+ padding: 3rem 0% 35rem 0rem;
+ border-radius: 10px;
+ box-shadow: #000;
+}
